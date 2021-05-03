@@ -1,0 +1,24 @@
+.container {
+  border: 2px solid rgb(70, 167, 167);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap;
+  align-content: center; */
+  height: 90vh;
+}
+.box {
+  flex-basis: 5rem;
+  flex-grow: 1;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+  background: gold;
+}
+/* .box-one {
+  align-self: flex-start;
+} */
+.box-one {
+  flex-grow: 2;
+}
