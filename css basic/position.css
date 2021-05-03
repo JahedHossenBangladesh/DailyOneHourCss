@@ -1,0 +1,32 @@
+.boxes {
+  border: 3px solid lightcyan;
+  position: relative;
+  height: 200vh;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.box-one {
+  background: gold;
+}
+.box-two {
+  background: tomato;
+  position: fixed;
+  /* that is for relative;
+  left: 5rem;
+  bottom: 4rem;
+  z-index: -1; */
+
+  /* that is for absolute
+  right: 0;
+  bottom: 0; */
+  top: 0;
+  z-index: 1;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+}
+.box-three {
+  background: blue;
+}
